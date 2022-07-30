@@ -1,0 +1,14 @@
+﻿@model LeetSpeakTranslator
+<form asp-controller="Translation" asp-action="Create" method="post" role="form">
+    <div class="col-md-6">
+
+        <label for="word"> Text To Be Translated </label> <br />
+        <input type="text" asp-for="@Model.contents.text" /> <br />
+    </div>
+
+    <br />
+
+    <div class="col-md-12">
+        <button class="btn btn-success" type="submit">Submit</button>
+    </div>
+</form>

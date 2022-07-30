@@ -1,0 +1,24 @@
+﻿
+<link href="~/lib/datatables/css/dataTables.bootstrap4.css" rel="stylesheet" />
+<div class="container">
+    <h3 class="text-primary">Records</h3>
+    <hr />
+
+    <table id="Records" class="table table-striped table-bordered dt-responsive nowrap">
+        <thead>
+            <tr>
+                
+                <th>Id</th>
+                <th>Text</th>
+                <th>TranslationResult</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+@section Scripts
+{
+    <script src="~/lib/datatables/js/jquery.dataTables.js"></script>
+    <script src="~/lib/datatables/js/dataTables.bootstrap4.js"></script>
+    <script src="~/js/translateDatatable.js"></script>
+}
