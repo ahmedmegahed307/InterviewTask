@@ -10,11 +10,11 @@ namespace AFS_.NET_Developer_Test.Controllers
     [ApiController]
 
     // this is JQuery Controller to generate tables and display data with Calls().
-    public class test : ControllerBase
+    public class JQueryTableController : ControllerBase
     {
         private readonly ProjectContext _context;
         private readonly IJQueryService _jqueryServices;
-        public test(ProjectContext context, IJQueryService jqueryserrvice)
+        public JQueryTableController(ProjectContext context, IJQueryService jqueryserrvice)
         {
             _context = context;
             _jqueryServices = jqueryserrvice;
