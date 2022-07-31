@@ -4,7 +4,7 @@
         "serverSide": true,
         "filter": true,
         "ajax": {
-            "url": "/api/test",
+            "url": "/api/jQueryTableController",
             "type": "POST",
             "datatype": "json"
         },
